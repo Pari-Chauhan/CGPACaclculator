@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Simple font for readability */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2; /* Primary color */
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+select, input, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.result-container {
+    margin-top: 20px;
+    text-align: center;
+}
